@@ -55,7 +55,7 @@ subprocess.check_call(
 
 
 info = "IPCC AR5 global mean temperature data from CMIP5 models"
-source = "http://www.ipcc.ch/report/ar5/wg1/docs/ar5_wg1_annexI_all.zip"
+source = "https://archive.ipcc.ch/report/ar5/wg1/docs/ar5_wg1_annexI_all.zip"
 download(info, source, "ipcc_ar5")
 cmd = "cd " + datadir + \
     "ipcc_ar5 && unzip ar5_wg1_annexI_all.zip **WGIAR5_FD_AnnexI_series_tas_modelmean_*_world_annual.txt"
