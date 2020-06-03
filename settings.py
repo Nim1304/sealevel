@@ -43,11 +43,11 @@ project_these = ["thermexp", "gic", "gis_smb", "gis_sid", "ant_dp16"]
 proj_period = np.arange(1900, 2101, 1)
 
 # the number of monte carlo samples, 10000 used in PNAS paper
-nrealizations = 100
+nrealizations = 1000
 
 # only possible if you have an ensemble of global mean temperature
 # projections
-probablistic_climate = False
+probablistic_climate = True
 
 # No edits below this line needed.
 # Convert relative to absolute paths, to make them accessible
